@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Centre de Formation</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Menu -->
+    <header>
+        <h1>Centre Numérique</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="formations.html">Formations</a></li>
+                <li><a href="enseignants.html">Enseignants</a></li>
+                <li><a href="actualites.html">Actualités</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Image principale -->
+    <section class="hero">
+        <img src="images/centre.jpg" alt="centre">
+    </section>
+
+    <!-- Présentation -->
+    <section class="presentation">
+        <h2>Bienvenue</h2>
+        <p>Notre centre propose des formations modernes adaptées au marché du travail.</p>
+        <p>Nous formons dans plusieurs domaines du numérique avec des experts qualifiés.</p>
+    </section>
+
+    <!-- Formations -->
+    <section class="formations">
+        <h2>Formations principales</h2>
+        <div class="cards">
+            <div class="card">
+                <h3>Développement Web</h3>
+                <p>Apprenez HTML, CSS et JavaScript.</p>
+            </div>
+            <div class="card">
+                <h3>Bureautique</h3>
+                <p>Maîtrisez Word, Excel et PowerPoint.</p>
+            </div>
+            <div class="card">
+                <h3>Réseaux</h3>
+                <p>Découvrez les bases des réseaux informatiques.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 Centre de Formation</p>
+    </footer>
+
+</body>
+</html>
+<style>
+  /* Style général */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background: #333;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+/* Menu */
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Image */
+.hero img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+/* Sections */
+section {
+    padding: 20px;
+}
+
+/* Cartes avec Flexbox */
+.cards {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.card {
+    background: #f4f4f4;
+    padding: 15px;
+    width: 30%;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+</style>
